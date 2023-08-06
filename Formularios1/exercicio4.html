@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios 4 da lista: Listas e formulários </title>
+</head>
+<body>
+    
+    <form enctype="multipart/form-data">
+
+        <fieldset>
+
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome">
+            <label for="sobrenome">Sobrenome: </label>
+            <input type="text" id="sobrenome" name="sobrenome">
+            <hr>
+            <p><label for="endereco">Endereço: </label></p>
+            <input type="endereco" id="endereco" name="endereco">
+            <br>
+
+        </fieldset>
+    </form>
+
+    <form enctype="multipart/form-data">
+
+        <fieldset> 
+
+            <legend> Dados Profissionais </legend>
+            <p>Escolaridade: 
+            <select id="escolaridade" name="escolaridade">
+                <option value="ensicoMedio" selected>Ensino Médio</option>
+                <option value="ensinoSuperior">Ensino Superior</option>
+                <option value="posgraduacao">Pós-Graduação</option>
+            </select>
+            <br></p>
+
+            <p><label for="trabalha">Trabalha atualmente? </label></p>
+
+            <input type="radio" name="sim" id="sim" value="Sim">
+            <label for="sim">Sim</label>
+            <input type="radio" name="nao" id="nao" value="Não">
+            <label for="nao">Não</label>
+            <br></p>
+
+            <p>Cursos: <br></p>
+            <p><input type="checkbox" name="cursos" id="informaticabasica" value="Informática básica">
+            <label for="informaticabasica">Informática básica</label>
+
+            <input type="checkbox" name="cursos" id="secretariado" value="Secretariado">
+            <label for="secretariado">Secretariado</label>
+
+            <input type="checkbox" name="cursos" id="logicaprogramacao" value="Lógica de Programação">
+            <label for="logicaprogramacao">Lógica de Programação</label>
+
+            <input type="checkbox" name="cursos" id="htmlcss" value="HTML e CSS">
+            <label for="htmlcss">HTML e CSS</label>
+
+            <input type="checkbox" name="cursos" id="javascript" value="JavaScript">
+            <label for="javascript">JavaScript</label></p>
+
+
+        </fieldset>
+
+    </form>
+    <form enctype="multipart/form-data">
+
+        <fieldset>
+            <legend> Pesquisa </legend>
+
+            <p><label for="trabalha">Já fez viagem para o exterior? </label></p>
+
+            <input type="radio" name="sim" id="sim" value="Sim">
+            <label for="sim">Sim</label>
+            <input type="radio" name="nao" id="nao" value="Não">
+            <label for="nao">Não</label>
+            <br></p>
+
+            <p>Quais continentes desperta mais interesse? <br></p>
+            <p><input type="checkbox" name="cursos" id="asul" value="América do Sul">
+            <label for="asul">América do Sul</label>
+
+            <input type="checkbox" name="cursos" id="anorte" value="América do Norte">
+            <label for="anorte">América do Norte</label>
+
+            <input type="checkbox" name="cursos" id="acentral" value="América Central">
+            <label for="acentral">América Central</label>
+
+            <input type="checkbox" name="cursos" id="africa" value="África">
+            <label for="africa">África</label>
+
+            <input type="checkbox" name="cursos" id="asia" value="Ásia">
+            <label for="asia">Ásia</label>
+
+            <input type="checkbox" name="cursos" id="europa" value="Europa">
+            <label for="europa">Europa</label>
+            <br></p>
+
+            <p><label for="paises">Cite ao menos 5 países que pretende conhecer: </label></p>
+                <input type="text" id="paises" name="paises">
+
+            <p>Mensagem: <br></p>
+            <p><textarea></textarea>
+            <br></p>
+
+        </fieldset>
+        <p><button type="submit" name="enviar">Enviar</button></p>
+            
+
+</body>
+</html>

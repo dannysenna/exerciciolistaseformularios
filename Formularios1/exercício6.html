@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios 6 da lista: Listas e formulários </title>
+</head>
+<body>
+    
+    <form enctype="multipart/form-data">
+
+        <fieldset>
+            <legend>Cadastro de Cliente </legend>
+
+            <p><label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" maxlength="100" placeholder="Digite o primeiro nome">
+
+            <label for="sobrenome">Sobrenome: </label>
+            <input type="sobrenome" id="sobrenome" name="sobrenome" placeholder="Digite o sobrenome">
+            </p>
+
+            <p><label for="data">Data de Nascimento: </label>  
+            <input type="date" id="data" name="dataNascimento">
+            </p>
+
+            <p><label for="endereco">Endereço: </label>
+            <input type="endereco" id="endereco" name="endereco" placeholder="Digite o endereço">
+            </p>
+
+            <p><label for="email">E-mail: </label>
+            <input type="email" id="email" name="email" placeholder="Digite o e-mail">
+            </p>
+
+            <p><label for="senha">Senha: </label>
+            <input type="password" id="senha"name="senha" minlength="6" maxlength="10" placeholder="Ao menos 6 dígitos" required>
+            </p>
+
+            <p><label for="repetirsenha">Repita a senha: </label>
+            <input type="password" id="repetirsenha"name="repetirsenha" minlength="6" maxlength="10" placeholder="Repita a senha acima" required>
+            </p>
+            
+        </fieldset>
+            
+        <p><button type="submit" name="cadastrar"> Cadastrar </button></p>
+    </form>
+</body>
+</html>
+
